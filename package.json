@@ -6,14 +6,12 @@
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {
-      "source": "./src/index.tsx",
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
     "./package.json": "./package.json"
   },
   "files": [
-    "src",
     "lib",
     "android",
     "ios",
@@ -151,7 +149,7 @@
   "codegenConfig": {
     "name": "FabricTestingViewSpec",
     "type": "all",
-    "jsSrcsDir": "src",
+    "jsSrcsDir": "lib/module",
     "android": {
       "javaPackageName": "com.fabrictexting"
     },

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "fabric-texting": ["./src/index"]
+    "fabric-texting": ["./lib/module/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
